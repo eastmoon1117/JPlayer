@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid
+        android:color="@color/green_400"/>
+    <padding
+        android:bottom="0dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp" />
+    <!-- size设置形状的大小 -->
+    <size
+        android:width="20dp"
+        android:height="20dp" />
+    <!-- gradient设置渐变 -->
+    <!--<gradient
+        android:endColor="#666"
+        android:gradientRadius="40dp"
+        android:startColor="#FFFFFF"
+        android:type="radial" /> -->
+</shape>
