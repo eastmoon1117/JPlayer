@@ -1,2 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_0b23256739aacf8d70857b8c86bb0b9e53af5f86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.2.0/baseLibrary-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e1d81f36ef9a5803689b3e888eb93a8759a17be0">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.2.0_78d10c59095dc704044b039733d8808f01f081a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_616bf3c608e89ebc925ea0e4d942e6e080b62e1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_b075704f587a228f07858d4f2322f0bdfbc007c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_46563e33f0f800fd580f9b8e0cc13913c11f5b85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_49c0277c59e94be7fe2f03938b239de421854b46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="68608cf2d2f6c6cc85d0aec365791832d1a3b0ff">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_751b498e26dc107c882120b570a7f2a681bcb688/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_6c97686282ab599b176052e42e5d210b760713dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_2872eb6ab2a6b1b93f923f559338228284492ffe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-library-1.2.1_d56c9785e1e6817914a2a5cf04568c95dc0c548c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_17474eeea7c05efb03709765e6e78ca391abf3a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_15d3a87561d12daa64b90d9f67e34b2080e36de3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_053e0a8f9b3c0805c885bb94970c3e11dd09aafc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_ab1b18a17f227c3f2889f7eae6e18a8b9eb69018/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f1900d05bc9a57b11577977e27987c9dd602e35d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0a420515f6dce6077872a80e0f479527203b9388">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_44cd513eef8a9e846e43549d81b6660397f13b12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_1cdfe170c2efafb56e020b00e752720ad909ff4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Desktop/jared/software/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_c07e51c13690cd2077037418062421e3d6215666/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_822ecfa306b68f34a84a14c90cbd39e158d6d616/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_7235a761485f92a2781b712991b1956b9ec90dac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_b28b1a0d9e196c0eee2478f694c3c081e378477e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.2.1_5e8c434eafd2e8891f7b03b0d78edfbd10c8ea13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_7d60666fb576f0407fc36476ca1a1b0fcc055d46/classes.dex" />
+    </item>
+
+</items>

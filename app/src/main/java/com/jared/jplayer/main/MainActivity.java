@@ -42,13 +42,11 @@ public class MainActivity extends BaseActivity implements ViewPager.OnPageChange
 
         binding.viewpager.setOffscreenPageLimit(2);
         binding.viewpager.setAdapter(new MyFragmentPagerAdapter(getSupportFragmentManager()));
-        //binding.viewpager.setPageTransformer(true, new DepthPageTransformer());
         initTabPagerListener();
         binding.rgTab.check(bts.get(0));
     }
 
     private void initTabPagerListener() {
-
         binding.viewpager.addOnPageChangeListener(this);
         binding.rgTab.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -70,7 +68,6 @@ public class MainActivity extends BaseActivity implements ViewPager.OnPageChange
     @Override
     public void onPageSelected(int position) {
         selectTitle(bts.get(position));
-
         binding.rgTab.check(bts.get(position));
     }
 
@@ -82,7 +79,7 @@ public class MainActivity extends BaseActivity implements ViewPager.OnPageChange
     private void selectTitle(int selectResId) {
         binding.rbLocal.setTextSize(TypedValue.COMPLEX_UNIT_PX, normalSize);
         binding.rbIntenet.setTextSize(TypedValue.COMPLEX_UNIT_PX, normalSize);
-        ((TextView)findViewById(selectResId)).setTextSize(TypedValue.COMPLEX_UNIT_PX,
+        ((TextView) findViewById(selectResId)).setTextSize(TypedValue.COMPLEX_UNIT_PX,
                 normalSelected);
     }
 
