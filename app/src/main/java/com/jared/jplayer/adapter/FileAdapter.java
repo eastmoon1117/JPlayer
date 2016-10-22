@@ -9,18 +9,15 @@ import com.jared.jplayer.R;
 import com.jared.jplayer.bean.LocalSource;
 import com.jared.jplayer.databinding.ItemLocalSrcBinding;
 import com.jared.jplayer.ui.LocalVideoPlayer;
+import com.jared.jplayer.utils.VideoUtil;
 
 /**
  * Created by jared on 2016/9/29.
  */
 public class FileAdapter  extends BaseAdapter<LocalSource> {
 
-    private AdapterCallback adapterCallback;
-    private Context context;
-
     public FileAdapter(Context context) {
         super(context);
-        this.context = context;
     }
 
     @Override
@@ -37,8 +34,8 @@ public class FileAdapter  extends BaseAdapter<LocalSource> {
         if (localSource.getBitmap() != null)
             fileViewHolder.binding.ivCover.setImageBitmap(localSource.getBitmap());
 
-        fileViewHolder.binding.tvDuration.setText(timeToString(localSource.getDuration()));
-        fileViewHolder.binding.tvSize.setText(getSize(localSource.getDuration(), localSource.getBitrate()));
+        fileViewHolder.binding.tvDuration.setText(VideoUtil.timeToString(localSource.getDuration()));
+        fileViewHolder.binding.tvSize.setText(VideoUtil.getSize(localSource.getDuration(), localSource.getBitrate()));
         fileViewHolder.binding.cardView.setTag(localSource);
         fileViewHolder.binding.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,17 +44,6 @@ public class FileAdapter  extends BaseAdapter<LocalSource> {
                 LocalVideoPlayer.launch(mContext, localSource.getUrl());
             }
         });
-    }
-
-    private String timeToString(int time) {
-        int second = (time/1000) % 60;
-        int minute = (time/1000) / 60;
-        return String.format("%02d", minute) +":"+String.format("%02d", second);
-    }
-
-    private String getSize(int time, int bitrate) {
-        double size = 1.0 * bitrate * time / 8.0 / 1024.0 / 1024.0 / 1024.0;
-        return String.format("%.2f", size) + "M";
     }
 
     @Override

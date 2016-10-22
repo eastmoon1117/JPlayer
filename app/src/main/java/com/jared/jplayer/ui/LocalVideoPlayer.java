@@ -3,7 +3,6 @@ package com.jared.jplayer.ui;
 import android.content.Context;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
-import android.graphics.Bitmap;
 import android.widget.Toast;
 
 import com.jared.jplayer.R;
@@ -11,9 +10,6 @@ import com.jared.jplayer.app.BaseActivity;
 import com.jared.jplayer.common.MyMediaController;
 import com.jared.jplayer.databinding.LocalPlayerBinding;
 
-import java.io.IOException;
-
-import io.vov.vitamio.MediaMetadataRetriever;
 import io.vov.vitamio.MediaPlayer;
 import io.vov.vitamio.Vitamio;
 
@@ -45,8 +41,6 @@ public class LocalVideoPlayer extends BaseActivity {
         super.initViews();
         String url = getActivity().getIntent().getStringExtra("url");
         initVideo("file://"+url);
-
-        //getVideoThumbnail("/storage/emulated/0/tencent/QQfile_recv/demo.mp4");
     }
 
     @Override
@@ -103,21 +97,5 @@ public class LocalVideoPlayer extends BaseActivity {
                 }
             });
         }
-    }
-
-    public Bitmap getVideoThumbnail(String filePath) {
-        Bitmap bitmap = null;
-        MediaMetadataRetriever retriever = new MediaMetadataRetriever(getActivity());
-        try {
-            retriever.setDataSource(filePath);
-            bitmap = retriever.getFrameAtTime(0);
-        } catch (IllegalArgumentException e) {
-            e.printStackTrace();
-        } catch (IllegalStateException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return bitmap;
     }
 }

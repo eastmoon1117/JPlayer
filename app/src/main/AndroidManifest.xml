@@ -41,6 +41,8 @@
             android:name=".ui.LocalVideoPlayer"
             android:screenOrientation="landscape" />
 
+        <activity android:name=".ui.InternetVideoPlayer"/>
+
     </application>
 
 </manifest>

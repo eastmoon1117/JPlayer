@@ -19,8 +19,16 @@ public class VideoUtil {
      */
     public static boolean isVideo(File file) {
         String name = file.getName();
+        return nameIsVideo(name);
+    }
 
-        int i = name.indexOf('.');
+    public static boolean isVideo(String url) {
+        return nameIsVideo(url);
+    }
+
+    private static boolean nameIsVideo(String name) {
+        //int i = name.indexOf('.');
+        int i = name.lastIndexOf('.');
         if (i != -1) {
             name = name.substring(i);
             if (name.equalsIgnoreCase(".mp4")
@@ -98,5 +106,27 @@ public class VideoUtil {
 
     public interface Callback {
         void findFile(File file);
+    }
+
+    /**
+     *
+     * @param time
+     * @return 时间字符串
+     */
+    public static String timeToString(int time) {
+        int second = (time/1000) % 60;
+        int minute = (time/1000) / 60;
+        return String.format("%02d", minute) +":"+String.format("%02d", second);
+    }
+
+    /**
+     * 通过时间和比特率计算文件大小
+     * @param time
+     * @param bitrate
+     * @return 文件大小
+     */
+    public static String getSize(int time, int bitrate) {
+        double size = 1.0 * bitrate * time / 8.0 / 1024.0 / 1024.0 / 1024.0;
+        return String.format("%.2f", size) + "M";
     }
 }

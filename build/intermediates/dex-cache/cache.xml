@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="68608cf2d2f6c6cc85d0aec365791832d1a3b0ff">
+        sha1="84554a2ca22186ee5dceffcdd313d5973e09ac92">
         <dex dex="/Users/jared/Documents/workspace/android/JPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_751b498e26dc107c882120b570a7f2a681bcb688/classes.dex" />
     </item>
     <item
